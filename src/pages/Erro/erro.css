@@ -9,6 +9,11 @@
 
 .not-found h1 {
   font-size: 120px;
+  color: #fff;
+}
+
+.not-found h2 {
+  color: #fff;
 }
 
 .not-found a {
