@@ -50,3 +50,42 @@
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
 }
+
+@media (max-width: 768px) {
+  .lista-filmes {
+    padding: 0 16px;
+  }
+
+  .lista-filmes article {
+    padding: 12px;
+    margin-top: 16px;
+  }
+
+  .lista-filmes strong {
+    font-size: 18px;
+  }
+
+  .lista-filmes img {
+    max-height: 280px;
+  }
+
+  .lista-filmes a {
+    font-size: 20px;
+    padding: 8px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .lista-filmes strong {
+    font-size: 16px;
+  }
+
+  .lista-filmes img {
+    max-height: 200px;
+  }
+
+  .lista-filmes a {
+    font-size: 16px;
+    padding: 6px 0;
+  }
+}

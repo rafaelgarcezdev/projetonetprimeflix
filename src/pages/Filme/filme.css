@@ -66,3 +66,65 @@
 .area-buttons a:hover {
   color: #fff;
 }
+
+@media (max-width: 768px) {
+  .filme-info {
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .filme-info h1 {
+    font-size: 24px;
+  }
+
+  .filme-info h3 {
+    font-size: 18px;
+  }
+
+  .filme-info span {
+    font-size: 15px;
+  }
+
+  .filme-info img {
+    max-height: 260px;
+  }
+
+  .area-buttons button {
+    font-size: 18px;
+    padding: 10px;
+  }
+
+  .area-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .area-buttons button {
+    margin: 8px 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .filme-info {
+    max-width: 100%;
+    padding: 0 26px;
+  }
+
+  .filme-info h1 {
+    font-size: 20px;
+  }
+
+  .filme-info img {
+    max-height: 260px;
+  }
+
+  .filme-info span {
+    font-size: 14px;
+  }
+
+  .area-buttons button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}

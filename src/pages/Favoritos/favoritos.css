@@ -38,3 +38,33 @@
   color: #116feb;
   margin-right: 14px;
 }
+
+@media (max-width: 768px) {
+  .meus-filmes ul {
+    width: 100%;
+    padding: 0 14px;
+  }
+
+  .meus-filmes ul li {
+    flex-direction: row;
+    text-align: center;
+  }
+
+  .meus-filmes ul li div {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .meus-filmes span {
+    font-size: 16px;
+  }
+
+  .meus-filmes h1 {
+    font-size: 24px;
+  }
+
+  .meus-filmes div a {
+    margin-right: 14px;
+  }
+}
